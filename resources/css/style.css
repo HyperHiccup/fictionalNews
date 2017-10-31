@@ -14,7 +14,7 @@ header {
   border-bottom: 1px solid black;
   padding: 5px;
   margin: 0 auto;
-  z-index: 5;
+
 }
 
 #logo {
@@ -36,4 +36,12 @@ header {
   margin: 0 10px;
   padding: 0 15px;
 
+}
+
+/**********
+Body
+**********/
+
+#container {
+  display: flex;
 }
