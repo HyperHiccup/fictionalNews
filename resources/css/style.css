@@ -1,10 +1,22 @@
 /*********
+General
+*********/
+
+h4 {
+  font-weight: normal;
+  border: 1px solid black;
+  margin: 0;
+}
+
+
+
+/*********
 Header
 *********/
 
 header {
   display: flex;
-  position: fixed;
+  position: ;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -42,6 +54,41 @@ header {
 Body
 **********/
 
-#container {
+.mainContainer {
   display: flex;
+  margin: 40px 0;
+  border: 1px solid black;
+  justify-content: flex-end;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+
+  width: 630px;
+  border: 1px solid black;
+  margin: 40px 20px;
+  margin-left: 0;
+}
+
+.top {
+  border-top: 3px solid black;
+}
+
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+  margin: 40px 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  border: 1px solid black;
+  margin: 40px 20px;
+  margin-right: 0;
 }
