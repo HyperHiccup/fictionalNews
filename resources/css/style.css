@@ -2,11 +2,15 @@
 General
 *********/
 
+
+
 h4 {
+
   font-weight: normal;
   border: 1px solid black;
   margin: 0;
 }
+
 
 
 
@@ -53,35 +57,75 @@ header {
 /**********
 Body
 **********/
+body {
+  overflow: scroll;
+  font-family: Georgia;
+}
 
 .mainContainer {
   display: flex;
-  margin: 40px 0;
+  margin: 40px 300px;
   border: 1px solid black;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-items: ;
+
 }
 
 .left {
   display: flex;
   flex-direction: column;
-
   width: 630px;
   border: 1px solid black;
   margin: 40px 20px;
   margin-left: 0;
+  margin-bottom: 0;
+}
+
+.mother {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.mother h4 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+.orca {
+  border: 2px solid black;
+}
+
+.burger {
+  border: 2px solid black;
 }
 
 .top {
-  border-top: 3px solid black;
+  border-top: 1px solid black;
 }
 
+.between {
+  border-top: 2px solid black;
+}
+
+.bottom {
+  border-top: 2px solid black;
+}
 
 .middle {
   display: flex;
   flex-direction: column;
   width: 300px;
   border: 1px solid black;
-  margin: 40px 20px;
+  margin: 40px 20px 0 20px;
+
+}
+
+.fbi {
+  border: 2px solid black;
+}
+
+.cats {
+  border: 1px solid black;
 }
 
 .right {
@@ -89,6 +133,17 @@ Body
   flex-direction: column;
   width: 240px;
   border: 1px solid black;
-  margin: 40px 20px;
-  margin-right: 0;
+  margin: 40px 0 0 20px;
+
+}
+
+
+
+.news {
+  border: 1px solid black;
+  margin: 0;
+}
+
+.news p {
+  margin-bottom: 0;
 }
