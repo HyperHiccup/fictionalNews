@@ -64,8 +64,9 @@ body {
 
 .mainContainer {
   display: flex;
-  margin: 40px 300px;
+  margin: 0 300px;
   border: 1px solid black;
+  border-top: none;
   justify-content: flex-start;
   align-items: ;
 
