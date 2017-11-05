@@ -90,14 +90,36 @@ body {
 
 .mother h4 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .orca {
   border: 2px solid black;
 }
 
+.orca h4 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
 .burger {
   border: 2px solid black;
+}
+
+.burger h4 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .top {
@@ -127,6 +149,15 @@ body {
 
 .cats {
   border: 1px solid black;
+}
+
+.cats h4 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .right {
