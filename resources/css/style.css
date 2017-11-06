@@ -7,7 +7,6 @@ General
 h4 {
 
   font-weight: normal;
-  border: 1px solid black;
   margin: 0;
 }
 
@@ -43,7 +42,6 @@ header {
 
 .navigation {
   list-style: none;
-
   margin: 30px;
 }
 
@@ -54,37 +52,43 @@ header {
 
 }
 
+
+
 /**********
 Body
 **********/
+
 body {
   overflow: scroll;
   font-family: Georgia;
 }
 
 .mainContainer {
-  display: flex;
+  display: inline-flex;
   margin: 0 300px;
-  border: 1px solid black;
-  border-top: none;
   justify-content: flex-start;
   align-items: ;
 
 }
 
+
+
+/**************
+Left Column
+**************/
+
 .left {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
+  flex-wrap: wrap;
   width: 630px;
-  border: 1px solid black;
   margin: 40px 20px;
   margin-left: 0;
   margin-bottom: 0;
+
 }
 
 .mother {
-  border: 1px solid black;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 
@@ -97,8 +101,7 @@ body {
 }
 
 .orca {
-  border: 2px solid black;
-}
+  }
 
 .orca h4 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
@@ -110,8 +113,7 @@ body {
 }
 
 .burger {
-  border: 2px solid black;
-}
+  }
 
 .burger h4 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
@@ -123,32 +125,33 @@ body {
 }
 
 .top {
-  border-top: 1px solid black;
 }
-
 .between {
-  border-top: 2px solid black;
-}
+  }
 
 .bottom {
-  border-top: 2px solid black;
-}
+  }
+
+
+
+/**************
+middle Column
+**************/
 
 .middle {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
+  flex-wrap: wrap;
   width: 300px;
-  border: 1px solid black;
   margin: 40px 20px 0 20px;
-
+  align-content: flex-start;
 }
 
 .fbi {
-  border: 2px solid black;
+
 }
 
 .cats {
-  border: 1px solid black;
+
 }
 
 .cats h4 {
@@ -160,19 +163,24 @@ body {
   text-align: center;
 }
 
+
+
+/**************
+right Column
+**************/
+
 .right {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
+  flex-wrap: wrap;
   width: 240px;
-  border: 1px solid black;
   margin: 40px 0 0 20px;
+  align-content: flex-start;
 
 }
 
 
 
 .news {
-  border: 1px solid black;
   margin: 0;
 }
 
