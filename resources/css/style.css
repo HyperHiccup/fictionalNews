@@ -5,7 +5,6 @@ General
 
 
 h4 {
-
   font-weight: normal;
   margin: 0;
 }
@@ -108,7 +107,6 @@ Left Column
 .primary {
   width:  295px;
   padding-right: 15px;
-
 }
 
 .secondary {
@@ -150,14 +148,6 @@ middle Column
   align-content: flex-start;
 }
 
-.fbi {
-
-}
-
-.cats {
-
-}
-
 .cats h4 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
   height: 300px;
@@ -187,6 +177,7 @@ right Column
 .news h2 {
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 
 .list {
